@@ -13,7 +13,7 @@
     .avatar{
       width:164px; height:164px; border-radius:50%;
       object-fit:cover;
-      object-position: 50% 35%;
+      object-position: 50% 35%; /* show more forehead */
       border:4px solid #fff; box-shadow:0 4px 14px rgba(0,0,0,.18);
     }
     header h1{ margin:1rem 0 .35rem; font-size:2rem; line-height:1.1; }
@@ -64,7 +64,7 @@
     input, textarea{ font:inherit; padding:.8rem .9rem; border:1px solid #d0d7de; border-radius:8px; }
     button{ font:inherit; background:var(--teal); color:#fff; border:none; border-radius:8px; padding:.85rem 1rem; cursor:pointer; }
     button:hover{ background:var(--teal-dark); }
-    footer{ background:var(--muted); text-align:center; padding:1rem; color:#555; }
+    footer{ background:var(--muted); text-align:center; padding:1rem; color:#555 }
   </style>
 </head>
 <body>
@@ -88,12 +88,95 @@
 <section id="about">
   <h2>About Me</h2>
   <p>Strategic and consumer-obsessed Brand Manager with 5+ years of experience launching and scaling global brands at FMCG leaders like Beiersdorf and Danone. Passionate about brand positioning, data-driven insights, and full-funnel go-to-market strategies. Recently up-skilled in Product Marketing for tech companies, I’m ready to bring my expertise to product-led environments requiring both creativity and commercial acumen.</p>
-
   <div class="quote">
     The future belongs to those who can imagine it, design it, and execute it.
     <span>— H.H. Sheikh Mohammed Bin Rashid Al Maktoum</span>
   </div>
 </section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h3>Brand Manager – Beiersdorf</h3>
+      <span>2021–Present · Eastern Europe / Singapore</span>
+      <ul>
+        <li>Led GTM strategy for NIVEA launches, adapting global strategies to local markets.</li>
+        <li>Managed 360° campaigns across digital, OOH, in-store, and PR.</li>
+        <li>Partnered with influencers, CSR, and social listening programs to enhance brand reputation.</li>
+      </ul>
+    </div>
+    <div class="timeline-item">
+      <h3>Jr Brand Manager – Danone</h3>
+      <span>2019–2021 · Eastern Europe</span>
+      <ul>
+        <li>Owned health-focused brand portfolio, aligning with ESG and consumer trends.</li>
+        <li>Co-led innovation launches achieving double-digit YoY growth.</li>
+      </ul>
+    </div>
+    <div class="timeline-item">
+      <h3>Management Trainee – Danone</h3>
+      <span>2018–2019 · Eastern Europe</span>
+    </div>
+    <div class="timeline-item">
+      <h3>Management Trainee – World Health Organisation</h3>
+      <span>2018 · Geneva, Switzerland</span>
+      <ul><li>Coordinated global NCD research and optimised digital healthcare toolkits.</li></ul>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul>
+    <li>MSc Clinical & Public Health Nutrition – University College London (2018)</li>
+    <li>BS Cognitive Science & Psychology – New Bulgarian University (2017)</li>
+    <li>Health Coach – Institute for Integrative Nutrition, New York (2015)</li>
+  </ul>
+</section>
+
+<section id="awards">
+  <h2>Awards & Achievements</h2>
+  <ul>
+    <li>Winner – Marketing Baby & Mother Awards, Bulgaria (2022)</li>
+    <li>Guest Lecturer – Sofia University (2021)</li>
+    <li>Mentor – Advertising Academy, New Bulgarian University (2021)</li>
+    <li>VIP Member – Food Matters Live, London (2018–2019)</li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2>Skills & Languages</h2>
+  <div class="chips">
+    <span class="chip">Brand Strategy</span>
+    <span class="chip">GTM</span>
+    <span class="chip">360° Campaigns</span>
+    <span class="chip">Influencer Marketing</span>
+    <span class="chip">Precision Marketing</span>
+  </div>
+  <h3 style="margin-top:1.25rem;color:#005f6b">Languages</h3>
+  <div class="chips">
+    <span class="chip">Bulgarian (Native)</span>
+    <span class="chip">English (C1)</span>
+    <span class="chip">Spanish (C1)</span>
+    <span class="chip">Russian (C1)</span>
+    <span class="chip">French (B2)</span>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/yourformid" method="POST">
+    <input type="text" name="name" placeholder="Your name" required />
+    <input type="email" name="_replyto" placeholder="Your email" required />
+    <textarea name="message" rows="5" placeholder="Your message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  © 2025 Yoanna Tomova-El Khatib — All rights reserved.
+</footer>
 
 </body>
 </html>
